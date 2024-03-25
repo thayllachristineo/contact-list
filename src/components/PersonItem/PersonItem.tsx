@@ -1,7 +1,7 @@
 import { Avatar, Box, Text } from '@chakra-ui/react';
 import { FC, useState } from 'react';
 
-import PersonModal from '../PersonModal/PersonModal';
+import PersonModal from '../PersonModal';
 import { TContact } from '../../types';
 
 type TProps = TContact & {
