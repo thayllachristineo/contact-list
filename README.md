@@ -8,11 +8,14 @@
 - [json-server](https://www.npmjs.com/package/json-server)
 - [ESLint](https://eslint.org/) + [Prettier](https://prettier.io/)
 - [vitejs](https://vitejs.dev/)
+- [concurrently](https://www.npmjs.com/package/concurrently)
 
 ### Como executar o projeto? 
-1. 1. Clonar o repositório:
+1. Clonar o repositório:
   -  via HTTPS: `git clone https://gitlab.com/thayllachristineo/contact-list`
   - via SSH: `git clone git@gitlab.com:thayllachristineo/contacts-list.git `
 2. Abrir o repositório: `cd contact-list`;
 3. Abrir terminal e inserir o comando `npm install` para instalar dependências do projeto;
-4. No terminal, insira o comando `npm run dev` para rodar o projeto e, abra uma outra aba e adicione o comando `npm run server` para subir o server.
+4. No terminal, insira o comando `npm run dev` para subir o client e o `json-server`.
+
+
